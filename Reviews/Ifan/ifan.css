@@ -20,6 +20,11 @@ h2 {
     color: white;
 }
 
+button {
+    width: 6%;
+    margin: auto;
+}
+
 #ifan1 {
     width: 50%;
     height: 50%;

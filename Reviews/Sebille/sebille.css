@@ -20,14 +20,19 @@ h2 {
     color: white;
 }
 
-#ifan1 {
+button {
+    width: 6%;
+    margin: auto;
+}
+
+#sebille1 {
     width: 50%;
     height: 50%;
     float: right;
     margin: 10px 10px 10px 10px;
 }
 
-#ifan2 {
+#sebille2 {
     width: 50%;
     height: 50%;
     float: left;
