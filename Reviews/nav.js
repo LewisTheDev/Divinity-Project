@@ -1,8 +1,8 @@
 
-const clickSebille = document.querySelector('#buttonSebille')
+document.getElementById("buttonSebille").onclick = function () {
+    location.href = ("../Sebille/sebille.html");
+};
 
-clickSebille.onclick = function () {
-    location.replace("C:\Users\lewis\Desktop\Divinity Project 1\Reviews\Sebille\sebille.html")
-}
-
-
+document.getElementById("buttonIfan").onclick = function () {
+    location.href = ("../Ifan/ifan.html");
+};
