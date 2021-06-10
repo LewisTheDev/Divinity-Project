@@ -25,58 +25,46 @@ button {
     margin: auto;
 }
 
-#maincontainer1-img {
-    width: 50%;
-    height: 50%;
-    float: right;
-    margin: 10px 10px 10px 10px;
-}
-
-#maincontainer2-img {
-    width: 50%;
-    height: 50%;
-    float: left;
-    margin: 10px 10px 10px 10px;
-}
-
-#maincontainer1 {
+span.container-sm {
     font-size: large;
     font-family: Roboto;
     color: whitesmoke;
-    float: left;
-    margin: 2%
+    margin: 2%;
 }
 
-#p1 {
-    background-color: #2d2d2e;
+span.p-block {
     display: block;
     padding: 2%;
 }
 
-#maincontainer2 {
-    font-size: large;
-    font-family: Roboto;
-    color: whitesmoke;
+#maincontainer1 {
+    float: left;
+    background-color: #2d2d2e;
+}
+
+#maincontainer1 > figure {
+    width: 50%;
+    height: 50%;
     float: right;
-    margin: 2%
+    margin: 10px 10px 10px 10px;
 }
 
-#p2 {
+#maincontainer2 {
+    float: right;
     background-color: #4c4c4d;
-    display: block;
-    padding: 2%
 }
 
-#p3 {
-    background-color: #3a3a5e;
-    display: block;
-    padding: 2%
+#maincontainer2 > figure {
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: 10px 10px 10px 10px;
 }
 
 #maincontainer3 {
-    font-size: large;
-    font-family: Roboto;
-    color: whitesmoke;
     float: left;
-    margin: 2%;
+    background-color: #3a3a3e;
 }
+
+
+
