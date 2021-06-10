@@ -25,14 +25,14 @@ button {
     margin: auto;
 }
 
-#ifan1 {
+#maincontainer1-img {
     width: 50%;
     height: 50%;
     float: right;
     margin: 10px 10px 10px 10px;
 }
 
-#ifan2 {
+#maincontainer2-img {
     width: 50%;
     height: 50%;
     float: left;

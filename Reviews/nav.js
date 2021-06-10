@@ -1,8 +1,8 @@
 
 document.getElementById("buttonSebille").onclick = function () {
-    location.href = ("../Sebille/sebille.html");
+    location.href = ("./sebille.html");
 };
 
 document.getElementById("buttonIfan").onclick = function () {
-    location.href = ("../Ifan/ifan.html");
+    location.href = ("./ifan.html");
 };
