@@ -1,8 +1,11 @@
 
-document.getElementById("buttonSebille").onclick = function () {
+const buttonSebille = document.getElementById("buttonSebille");
+const buttonIfan = document.getElementById("buttonIfan");
+
+buttonSebille.onclick = function () {
     location.href = ("./sebille.html");
 };
 
-document.getElementById("buttonIfan").onclick = function () {
+buttonIfan.onclick = function () {
     location.href = ("./ifan.html");
 };
