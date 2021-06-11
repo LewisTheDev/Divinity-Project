@@ -10,12 +10,21 @@ body {
     background-size: cover;
 }
 
+img {
+    border-radius: 25%;
+}
+
 h1 {
+    text-align: center;
     color: white;
-    padding: 10px 10px 10px 10px;
+    font-family: Roboto;
     background-color: #4c4c4d;
-    margin-top: 0.5em;
-    display: inline;
+    padding: 0.5% 1.5% 0.5% 1.5%;
+    display: table;
+    margin: 1% 38% 0% 38%;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #5bc0de
 }
 
 h2 {
@@ -25,6 +34,14 @@ h2 {
 button {
     width: 6%;
     margin: auto;
+}
+
+button:hover {
+    border-color: yellow;
+    box-shadow: aqua;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
 
 span.container-sm {
@@ -42,6 +59,9 @@ span.p-block {
 #maincontainer1 {
     float: left;
     background-color: #2d2d2e;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #5bc0de
 }
 
 #maincontainer1>figure {
@@ -54,6 +74,9 @@ span.p-block {
 #maincontainer2 {
     float: right;
     background-color: #4c4c4d;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #5bc0de
 }
 
 #maincontainer2>figure {
@@ -66,4 +89,7 @@ span.p-block {
 #maincontainer3 {
     float: left;
     background-color: #3a3a3e;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #5bc0de
 }
